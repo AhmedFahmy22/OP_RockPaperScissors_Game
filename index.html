@@ -4,6 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+        rel="stylesheet">
     <title>Rock..Paper..Scissors</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,24 +23,29 @@
     <main>
 
         <div class="score-box">
-            <div class="cpu-score">CPU Score: 0</div>
-            <div class="user-score">Your Score: 0</div>
+            <div class="user-score">Your Score: 0 </div>
+            <div class="cpu-score">CPU Score: 0 </div>
         </div>
+
+        <div id="final-result"></div>
 
         <div class="result-box">
-            <div>Choose wisely...</div>
-        </div>
+            <div class="round-result"></div>
 
-        <div class="buttons-box">
-            <button class="rock-btn">Rock</button>
-            <button class="paper-btn">Paper</button>
-            <button class="scissors-btn">Scissors</button>
+        </div>
+        <div class="input-box">
+            <div>Choose wisely...</div>
+            <div class="buttons-box">
+                <button class="btn" id="rock-btn">Rock</button>
+                <button class="btn" id="paper-btn">Paper</button>
+                <button class="btn" id="scissors-btn">Scissors</button>
+            </div>
         </div>
 
     </main>
 
     <footer>
-
+        <p>Coded By <a href="https://github.com/AhmedFahmy22">Ahmed Fahmy</a></p>
     </footer>
 
     <script src="app.js"></script>
